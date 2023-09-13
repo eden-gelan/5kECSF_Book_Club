@@ -83,15 +83,26 @@ export default class Header extends Component {
             />
           </div>
         </section>
-
         <section className="mb-8">
-          <div className=" bg-gainsboro-200 h-0.5" />
-          <section className="  flex items-center justify-center [background:linear-gradient(82.93deg,_#ffe5e5,_#f5fffe)] h-[98px]">
-            <div className=" container text-center text-[20px] leading-[32px] font-medium text-left">
-              Home / books
+            <div className=" bg-gainsboro-200 h-0.5" />
+            <div className=" m-8 text-[1.13rem] tracking-[0.12em] capitalize text-align-center">
+              <span className="font-extrabold  text-tomato">HOME</span>
+              <span className="font-medium text-gray-300">
+                <span className="text-gray-300">{`     `}</span>
+                <span className="text-lightgray-100">|</span>
+                <span className="text-gray-300">{`     ABOUT US     `}</span>
+                <span className="text-lightgray-100">|</span>
+                <span className="text-gray-300">{`     BOOKS     `}</span>
+                <span className="text-lightgray-100">|</span>
+                <span>{`     NEW RELEASE     `}</span>
+                <span className="text-lightgray-100">|</span>
+                <span className="text-gray-300">{`     CONTACT US     `}</span>
+                <span className="text-lightgray-100">|</span>
+                <span className="text-gray-300"> BLOG</span>
+              </span>
             </div>
-          </section>
-        </section>
+          </section> 
+       
       </div>
     );
   }
