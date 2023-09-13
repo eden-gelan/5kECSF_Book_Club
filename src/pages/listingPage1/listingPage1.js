@@ -1,7 +1,7 @@
-import Header from "../commonComponents/header.js";
-import Footer from "../commonComponents/footer.js";
-import GridView from "../components/gridView.js";
-import Filter from "../components/filter.js";
+import Header from "../../commonComponents/header.js";
+import Footer from "../../commonComponents/footer.js";
+import GridView from "./component/gridView.js";
+import Filter from "./component/filter.js";
 
 const listingPage1 = () => {
   return (

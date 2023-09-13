@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import books from "../model/listingPage1.json"
+import books from "../../../model/listingPage1.json"
 
 
 export default class GridView extends Component {

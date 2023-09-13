@@ -1,13 +1,13 @@
-import geners from "../model/homeGener.json";
-import releases from "../model/homePage.json";
+import geners from "../../model/homeGener.json";
+import releases from "../../model/homePage.json";
 
 
-import Header from "../commonComponents/header";
-import Nav from "../commonComponents/nav";
-import Banner1 from "../components/banner1";
-import Categories from "../components/catagory";
-import Banner2 from "../components/banner2";
-import HomeFooter from "../commonComponents/homeFooter";
+import Header from "../../commonComponents/header";
+import Nav from "../../commonComponents/nav";
+import Banner1 from "./componet/banner1";
+import Categories from "./componet/catagory";
+import Banner2 from "./componet/banner2";
+import HomeFooter from "../../commonComponents/homeFooter";
 
 const Home = () => {
   return (
