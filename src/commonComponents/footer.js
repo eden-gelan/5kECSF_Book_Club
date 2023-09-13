@@ -3,11 +3,11 @@ import logo from "../assets/image/home/homeFooterLogo.png"
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faPhone } from "@fortawesome/free-solid-svg-icons";
 
-export default class Header extends Component {
+export default class Footer extends Component {
   render() {
     return (
-      <footer className="grid  p-10 place-items-center grid-cols-3 gap-5  h-[500px] p-10 p-10 bg-tomato text-white" style={{fontSize:25 }}>
-        <div className="block ml-10">
+      <footer className="grid  p-10 place-items-center grid-cols-3 gap-5  h-[500px] p-10 p-10 bg-tomato text-white text-sm" style={{fontSize:25 }}>
+        <div className="block ml-10 text-xl">
           <img className="" src={logo} alt="" />
           <p>
             Nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
@@ -37,12 +37,15 @@ export default class Header extends Component {
         </div>
         <div className="mt-10">
           <b className="block ">Company</b>
+          <div className="text-xl ml-3">
           <b className="block mt-4">Home</b>
           <b className="block mt-4">About Us</b>
           <b className="block mt-4">Books</b>
           <b className="block mt-4">New Releas</b>
           <b className="block mt-4">Contact Us</b>
           <b className="block mt-4">Blog</b>
+          </div>
+         
         </div>
         <div>
           <p className="mb-8">  Important Link</p>

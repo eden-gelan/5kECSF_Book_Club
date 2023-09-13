@@ -4,12 +4,29 @@ module.exports = {
   theme: {
     extend: {
       colors: {
+        "white-100": "#fff",
+        "blue-100": "#0c2146",
         silver: {
           "100": "#c4c4c4",
           "200": "#bebebe",
           "300": "#bcbcbc",
         },
+        lightgray: {
+          "100": "#d1d1d1",
+          "200": "#ccc",
+        },
         tomato: "#ed553b",
+        gainsboro: {
+          "100": "#e0e0e0",
+          "200": "#ddd",
+        },
+        whitesmoke: {
+          "100": "#f6f6f6",
+          "200": "#f3f3f7",
+        },
+        coral: "#f27851",
+        darkslategray: "#333",
+      
         darkslateblue: {
           "100": "#38426c",
           "200": "#393280",
@@ -37,15 +54,28 @@ module.exports = {
           "200": "#cbcfd0",
           "300": "#cacecf",
         },
+        forestgreen: {
+          "100": "#42bb4e",
+          "200": "#41B64D",
+        },
         gainsboro: {
           "100": "#e5e3da",
           "200": "#e0e0e0",
         },
+        whitesmoke: {
+          "100": "#f6f6f6",
+          "200": "#f3f3f7",
+        },
         "white-100": "#fff",
         "blue-100": "#0c2146",
-        whitesmoke: "#f6f6f6",
+        
       },
+     
+     
+      spacing: {},
       fontFamily: {
+        inter: "Inter",
+        "liberation-sans": "'Liberation Sans'",
         "body-normal-14": "Inter",
         "inria-serif": "'Inria Serif'",
         "red-hat-display": "'Red Hat Display'",
@@ -58,6 +88,7 @@ module.exports = {
       },
     },
     fontSize: {
+      mini :" 0.9375 rems",
       sm: "0.88rem",
       xl: "1.25rem",
       lg: "1.13rem",
@@ -72,6 +103,9 @@ module.exports = {
       inherit: "inherit",
     },
     screens: {
+      lg: {
+        max: "1200px",
+      },
       sm: {
         max: "420px",
       },

@@ -1,7 +1,7 @@
 import React, { Component } from "react";
-import higher from "../assets/image/home/higherEduc.png";
-import manag from "../assets/image/home/managBooks.png";
-import eng from "../assets/image/home/engineerBook.png";
+import higher from "../../../assets/image/home/higherEduc.png";
+import manag from "../../../assets/image/home/managBooks.png";
+import eng from "../../../assets/image/home/engineerBook.png";
 
 export default class Categories extends Component {
   render() {

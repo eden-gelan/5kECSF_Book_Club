@@ -1,5 +1,5 @@
-import geners from "../../model/homeGener.json";
-import releases from "../../model/homePage.json";
+import geners from "./model/homeGener.json";
+import releases from "./model/homePage.json";
 
 
 import Header from "../../commonComponents/header";
@@ -39,13 +39,13 @@ const Home = () => {
           })}
         </div>
 
-        <p className="text-[32px] font-body-normal-14 flex justify-center mt-4">
+        <p className="text-[24px] font-body-normal-14 flex justify-center mt-4">
           New Realeses Books
         </p>
-        <p className="text-[32px] font-body-normal-14 flex justify-center mt-4">
+        <p className="text-[12px] font-body-normal-14 flex justify-center mt-4">
           1000+ books are published by different authors everyday.
         </p>
-        <p className="text-[32px] font-body-normal-14 flex justify-center mt-4">
+        <p className="text-[10px] font-body-normal-14 flex justify-center mt-4 text-tomato">
           View all products
         </p>
 

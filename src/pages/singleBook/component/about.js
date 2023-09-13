@@ -5,7 +5,7 @@ import other2 from "../../../assets/image/home/React.png"
 export default class About extends Component {
   render() {
     return (
-      <div className="rounded-3xs bg-darkgray px-9 py-10 w-[445px] h-[418px] overflow-hidden text-xl">
+      <div className="rounded-3xs bg-white px-9 py-10 w-[445px] h-[418px] overflow-hidden text-xl">
         <div className="flex">
           <div className="mr-10">
             <h2 className="m-0 text-inherit leading-[128.52%] font-semibold w-[138px] h-[29px]">

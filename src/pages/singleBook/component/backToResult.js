@@ -23,26 +23,26 @@ export default class BackToResult extends Component {
             </h3>
           </div>
   
-          <div className=" rounded-3xs bg-darkslategray w-[558px] h-[473px] overflow-hidden text-2xs text-darkslategray font-liberation-sans">
-            <div className="w-[463px] h-[421px] flex items-center justify-center">
+          <div className=" rounded-3xs bg-white w-[558px] h-[473px] overflow-hidden text-2xs text-darkslategray font-liberation-sans">
+            <div className="w-[463px] h-[421px] pl-10 flex items-center justify-center">
               <img className=" w-full h-full" alt="" src={book} />
             </div>
   
-            <div className=" flex justify-center ml-10 w-[300px] h-[52px] text-white">
+            <div className=" flex justify-center ml-10 w-[300px] h-[52px] text-darkslategray">
               <div className="rounded w-[51.36px] h-[52px]  mr-4">
                 <FontAwesomeIcon
-                  className="w-8 h-8"
+                  className="w-5 h-5"
                   icon={faQuoteRight}
-                  style={{ color: "#000000" }}
+                  style={{ color: "#333333" }}
                 />
                 <b className=" leading-[12px]">Review</b>
               </div>
   
               <div className="rounded flex flex-col pt-0.5 px-1.5 pb-1.5 items-start justify-start  mr-4">
                 <FontAwesomeIcon
-                  className="w-8 h-8"
+                  className="w-5 h-5"
                   icon={faNoteSticky}
-                  style={{ color: "#000000" }}
+                  style={{ color: "#333333" }}
                 />
                 <b className="relative leading-[12px]">Notes</b>
               </div>

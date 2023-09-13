@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import banner1 from "../assets/image/home/homeBanner1.png"
+import banner1 from "../../../assets/image/home/homeBanner1.png"
 
 export default class Banner1 extends Component{
     render(){
