@@ -1,6 +1,6 @@
 import React, { Component } from "react";
-import books from "../model/listingPage1.json"
-
+import books from "../model/listingPage1.json";
+import { Link } from "react-router-dom";
 
 export default class GridView extends Component {
   render() {
@@ -17,11 +17,15 @@ export default class GridView extends Component {
                   alignItems: "center",
                 }}
               >
-                <img
-                  className="  w-[201.5px] h-[291.26px] "
-                  alt=""
-                  src={book.bookUrl}
-                />
+                <Link to ="/single">
+                  <div>
+                    <img
+                      className="  w-[201.5px] h-[291.26px] "
+                      alt=""
+                      src={book.bookUrl}
+                    />
+                  </div>
+                </Link>
               </div>
               <div
                 style={{

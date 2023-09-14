@@ -1,7 +1,8 @@
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faPhone } from "@fortawesome/free-solid-svg-icons";
 import React, { Component } from "react";
-import { Link } from 'react-router-dom';
+import { Link } from "react-router-dom";
+import Nav from "./nav";
 
 export default class Header extends Component {
   render() {
@@ -26,23 +27,20 @@ export default class Header extends Component {
             <FontAwesomeIcon icon={faPhone} style={{ color: "#ffffff" }} />
           </div>
         </div>
-        
+
         <section className=" container flex">
-          
-        <section className=" rounded-[50px] bg-silver-100 w-[5.38rem] h-[5.38rem]  mr-10" />
-        <div className="h-[calc(100%_-_190px)] w-[13rem] overflow-hidden flex">
-          <section className="h-[10.89%] w-[19.23%]  rounded-md [background:linear-gradient(90deg,_#2979ff,_#4c589e)] text-left text-[2.25rem] text-blue-100 font-red-hat-display">
-            
-            <b className="text-[2rem] leading-[2.25rem] flex text-white-100 text-center items-center justify-center">
-              S
-            </b>
-           
-          </section>
-          <div className="leading-[2.25rem] font-medium text-left text-[2.25rem] text-blue-100 font-red-hat-display">5kECSF</div>
+          <section className=" rounded-[50px] bg-silver-100 w-[5.38rem] h-[5.38rem]  mr-10" />
+          <div className="h-[calc(100%_-_190px)] w-[13rem] overflow-hidden flex">
+            <section className="h-[10.89%] w-[19.23%]  rounded-md [background:linear-gradient(90deg,_#2979ff,_#4c589e)] text-left text-[2.25rem] text-blue-100 font-red-hat-display">
+              <b className="text-[2rem] leading-[2.25rem] flex text-white-100 text-center items-center justify-center">
+                S
+              </b>
+            </section>
+            <div className="leading-[2.25rem] font-medium text-left text-[2.25rem] text-blue-100 font-red-hat-display">
+              5kECSF
+            </div>
+          </div>
 
-        </div>
-
-         
           <input
             className="[border:none] font-semibold font-body-normal-14 ml-10 mb-10 mr-8 text-[0.88rem] bg-whitesmoke-100 rounded-xl w-[38.56rem] h-[2.81rem]"
             type="text"
@@ -84,27 +82,8 @@ export default class Header extends Component {
             />
           </div>
         </section>
-        <div className="h-[0.2px] w-full bg-gray-100"/>
-        <section className="mb-8 flex flex-row justify-center">
-            <div className=" bg-gainsboro-200 h-0.5" />
-            <div className=" m-8 text-[1.13rem] tracking-[0.12em] capitalize text-align-center">
-              <span className="font-extrabold  text-tomato ">HOME</span>
-              <span className="font-medium text-gray-300">
-               
-                <span className="text-lightgray-100 mx-8">|</span>
-                <span className="text-gray-300">{`     ABOUT US     `}</span>
-                <span className="text-lightgray-100 mx-8">|</span>
-                <span className="text-gray-300" >{`     BOOKS     `}</span>
-                <span className="text-lightgray-100 mx-8">|</span>
-                <span>{`     NEW RELEASE     `}</span>
-                <span className="text-lightgray-100 mx-8">|</span>
-                <span className="text-gray-300">{`     CONTACT US     `}</span>
-                <span className="text-lightgray-100 mx-8">|</span>
-                <span className="text-gray-300 mx-8"> BLOG</span>
-              </span>
-            </div>
-          </section> 
-       
+        <div className="h-[0.2px] w-full bg-gray-100" />
+        <Nav/>
       </div>
     );
   }

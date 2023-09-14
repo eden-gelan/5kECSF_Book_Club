@@ -13,7 +13,7 @@ const Home = () => {
   return (
     <div>
       <Header />
-      <Nav />
+      
       <Banner1 />
       <Categories />
 
