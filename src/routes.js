@@ -10,9 +10,9 @@ const Routeer = () => {
     <Router>
    
       <Routes>
-        <Route path="/" element={<Home />} /> {/* Update this line */}
+        <Route path="/" element={<Home />} /> 
         <Route path="/listing" element={<ListingPage1 />} />
-        <Route path="/single" element={<SingleBook />} /> {/* Update this line */}
+        <Route path="/single" element={<SingleBook />} />
       </Routes>
     </Router>
   );
