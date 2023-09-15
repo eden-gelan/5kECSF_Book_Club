@@ -6,9 +6,9 @@ export default class GridView extends Component {
   render() {
     return (
       <div className="grid grid-cols-3 gap-10 ">
-        {books.map((book) => {
+        {books.map((book, index) => {
           return (
-            <div>
+            <div key={index}>
               <div
                 className="mb-5 shadow-[0px_4px_10px_rgba(0,_0,_0,_0.15)] w-[100%] h-[385.83px] "
                 style={{
